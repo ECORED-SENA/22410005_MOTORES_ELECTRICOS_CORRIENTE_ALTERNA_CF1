@@ -1,0 +1,258 @@
+.container
+    .header-ecored
+        h1 2. Conceptos básicos de los motores de imanes permanentes
+    .jumbotron.bg-white
+        p En este tema se estará revisando los conceptos básicos de los motores de imanes permanentes en motores de fondo. 
+        
+        .sub-ecored.mt-5#21
+            h2 2.1 Partes eléctricas y mecánicas de los motores de imanes permanentes de fondo.
+        p.mt-5 Los motores de imanes permanentes son motor de corriente alterna que cuenta con imanes en su rotor que son utilizados para generar un campo electromagnético constante.
+
+        p Existen principalmente dos tipos de motores de imanes permanente IPM con imanes montados en el interior del rotor y SPM con los imanes en la superficie del rotor.
+        img.img-a.mt-5(src="assets/images/pages/ilustraciones/img15.png").img-fluid
+
+        p.mt-5 Para entender cómo operan los motores de imanes permanentes es importante entender los siguientes conceptos:
+        table.table.table-bordered.table-striped
+            thead.thead-dark
+                tr
+                    td.table-color-1.text-center Inducción electromagnética: 
+                    td.table-color-2 La inducción electromagnética es el proceso por el cual se puede inducir una corriente por medio de un cambio en el campo magnético. (JASZCZOLT, 2017).         
+
+                tr
+                    td.table-color-2.text-center Enlace de flujo: 
+                    td.table-color-1 El enlace de flujo ocurre cuando un campo magnético interactúa con un material, como lo que sucedería cuando un campo magnético atraviesa una bobina de alambre. El enlace de flujo está determinado por el número de devanados y el flujo, donde  ϕ se usa para indicar el valor instantáneo de un flujo variable en el tiempo. (JASZCZOLT, 2017).                  
+                tr
+                    td.table-color-1.text-center Los ejes “d” y “q”:
+                    td.table-color-2 En términos geométricos, los ejes “d” y “q” son las representaciones monofásicas del flujo aportado por las tres cantidades de fase sinusoidal separadas a la misma velocidad angular. El eje d, también conocido como eje directo, es el eje por el cual el devanado de campo produce el flujo. El eje q, o eje de cuadratura, es el eje en el que se produce el par. Por convención, el eje en cuadratura siempre conducirá eléctricamente al eje directo en 90º grados. En términos simplistas, el eje d es la dirección de flujo principal, mientras que el eje q es la dirección de producción de par principal. (JASZCZOLT, 2017).         
+
+                tr
+                    td.table-color-2.text-center Inductancia en los ejes “q” y “d” en los motores de imanes permanentes. 
+                    td.table-color-1 Las inductancias del eje d y del eje q son las inductancias medidas a medida que la ruta de flujo pasa a través del rotor en relación con el polo magnético. La inductancia del eje d es la inductancia medida cuando el flujo pasa a través de los polos magnéticos. La inductancia del eje “q” es la medida de inductancia cuando el flujo pasa entre los polos magnéticos.
+
+                    p En una máquina de inducción, el enlace de flujo del rotor será el mismo entre el eje d y el eje q. Sin embargo, en una máquina de imán permanente, el imán reduce el hierro disponible para el enlace de flujo. La permeabilidad de un imán es cercana a la del aire. Por lo tanto, el imán puede verse como un espacio de aire. El imán está en la trayectoria del flujo mientras viaja a través del eje “d”.
+ 
+                    p La trayectoria del flujo que viaja a través del eje “q” no atraviesa un imán. Por lo tanto, se puede vincular más hierro con la ruta de flujo del eje “q”, lo que da como resultado una inductancia mayor. Un motor con un imán incrustado tendrá una inductancia del eje “q” más grande que la inductancia del eje  “d”. Un motor con imanes de montaje en superficie tendrá inductancias casi idénticas en el eje “q” y el eje “d” porque los imanes están fuera del rotor y no limitan la cantidad de hierro enlazado por el campo del estator.
+
+        .header-arrow.py-4.mt-5
+            h3 Diferencias entre motor de inducción y motor de imanes
+        .jumbotron.border-sup-jumbo.bg-1 
+            .row.justify-content-center.align-items-stretch
+                .col-12.col-md-5.br-1
+                    h3.text-center MOTOR INDUCCIÓN
+                    .hr-1
+                    img.img-a(src="assets/images/pages/ilustraciones/img16.png").img-fluid
+                    .list.mt-4
+                        .list__item
+                            .list__item__icon
+                                img.img-a(src="assets/images/pages/ilustraciones/v2.svg").img-fluid  
+                        .list__txt    
+                            p.m-top Para los motores de Inducción es necesario hacer circular una corriente eléctrica para inducir un campo magnético en el estator y este a su vez induce un campo en el rotor que lo hace girar, necesitando de más energía por el aumento en las pérdidas.
+                    .list.mt-4
+                        .list__item
+                            .list__item__icon
+                                img.img-a(src="assets/images/pages/ilustraciones/v2.svg").img-fluid  
+                        .list__txt    
+                            p.m-top Rotor construido con bobinas (barras)  de cobre cortocircuitadas por dos anillos terminales de cobre.
+                    .list.mt-4
+                        .list__item
+                            .list__item__icon
+                                img.img-a(src="assets/images/pages/ilustraciones/v2.svg").img-fluid  
+                        .list__txt    
+                            p.m-top Rotor construido con bobinas (barras)  de cobre cortocircuitadas por dos anillos terminales de cobre.
+                    .list.mt-4
+                        .list__item
+                            .list__item__icon
+                                img.img-a(src="assets/images/pages/ilustraciones/v2.svg").img-fluid  
+                        .list__txt    
+                            p.m-top La interacción del campo magnético del rotor y el campo magnético del estator dan como resultado:
+
+                            .list.mt-4
+                                .list__item
+                                    .list__item__icon
+                                        img.img-a(src="assets/images/pages/ilustraciones/v1.svg").img-fluid  
+                                .list__txt    
+                                    p.m-top Torque del rotor
+                            .list.mt-2
+                                .list__item
+                                    .list__item__icon
+                                        img.img-a(src="assets/images/pages/ilustraciones/v1.svg").img-fluid  
+                                .list__txt    
+                                    p.m-top Deslizamiento (diferencia de velocidad entre el estator y el rotor).
+                    .list.mt-4
+                        .list__item
+                            .list__item__icon
+                                img.img-a(src="assets/images/pages/ilustraciones/v2.svg").img-fluid  
+                        .list__txt    
+                            p.m-top No requiere un algoritmo especial para VSD
+                .col-12.col-md-5.br-2
+                    h3.text-center MOTOR IMANES PERMANENTES
+                    .hr-2
+                    img.img-a(src="assets/images/pages/ilustraciones/img17.png").img-fluid                
+                    .list.mt-4
+                        .list__item
+                            .list__item__icon
+                                img.img-a(src="assets/images/pages/ilustraciones/v2.svg").img-fluid  
+                        .list__txt    
+                            p.m-top Los conductores del rotor son reemplazados por imanes permanentes los cuales producen el campo magnético (flujo magnético). La potencia solo se requiere para generar el campo en el estator.
+                    .list.mt-4
+                        .list__item
+                            .list__item__icon
+                                img.img-a(src="assets/images/pages/ilustraciones/v2.svg").img-fluid  
+                        .list__txt    
+                            p.m-top (Constante) Flujo magnético del rotor creado por presencia de magnetos (imanes) permanentes.
+                    .list.mt-4
+                        .list__item
+                            .list__item__icon
+                                img.img-a(src="assets/images/pages/ilustraciones/v2.svg").img-fluid  
+                        .list__txt    
+                            p.m-top La rotación del campo magnético creado en el estator cuando la corriente alterna es aplicada a los devanados no giratorios del estator.
+                    .list.mt-4
+                        .list__item
+                            .list__item__icon
+                                img.img-a(src="assets/images/pages/ilustraciones/v2.svg").img-fluid  
+                        .list__txt    
+                            p.m-top Interacción del campo magnético del rotor y el campo magnético del estator dan como resultado:
+
+                            .list.mt-4
+                                .list__item
+                                    .list__item__icon
+                                        img.img-a(src="assets/images/pages/ilustraciones/v1.svg").img-fluid  
+                                .list__txt    
+                                    p.m-top Torque del rotor            
+                    .list.mt-4
+                        .list__item
+                            .list__item__icon
+                                img.img-a(src="assets/images/pages/ilustraciones/v2.svg").img-fluid  
+                        .list__txt    
+                            p.m-top No requiere un algoritmo especial para VSD
+
+        .sub-ecored.mt-5#22
+            h2 2.2 Partes eléctricas y mecánicas de los motores de imanes permanentes de fondo.     
+        
+        .row.my-5
+            .col-3
+                #v-pills-tab.nav.flex-column.nav-pills(role='tablist', aria-orientation='vertical')
+                    a#v-pills-1-tab.nav-link.active.px-2(data-toggle='pill', href='#v-pills-1', role='tab', aria-controls='v-pills-1', aria-selected='true') Esquemático
+                    a#v-pills-2-tab.nav-link.px-2(data-toggle='pill', href='#v-pills-2', role='tab', aria-controls='v-pills-2', aria-selected='false') Partes
+                    a#v-pills-3-tab.nav-link.px-2(data-toggle='pill', href='#v-pills-3', role='tab', aria-controls='v-pills-3', aria-selected='false') Diseño
+            .col-8
+                #v-pills-tabContent.tab-content
+                    #v-pills-1.tab-pane.fade.show.active(role='tabpanel', aria-labelledby='v-pills-1-tab')
+                        .header-arrow.py-3
+                            h3 Esquemático de Motor de imanes permanentes de fondo 
+                        img.img-a(src="assets/images/pages/ilustraciones/img18.png").img-fluid
+
+                    #v-pills-2.tab-pane.fade(role='tabpanel', aria-labelledby='v-pills-2-tab')
+                        .header-arrow.py-3
+                            h3 Partes de un motor de imanes permanentes de fondo     
+                        img.img-a(src="assets/images/pages/ilustraciones/img19.png").img-fluid
+
+                    #v-pills-3.tab-pane.fade(role='tabpanel', aria-labelledby='v-pills-3-tab')
+                        .header-arrow.py-3
+                            h3 Diseño geométrico de la posición de los Imanes dentro del rotor:
+                        img.img-a(src="assets/images/pages/ilustraciones/img20.png").img-fluid 
+
+        .sub-ecored.mt-5#23
+            h2 2.3 Funcionamiento de los motores de Imanes Permanentes de Fondo 
+        .jumbotron.bg-2.mt-5
+            .row.justify-content-center.align-items-center
+                .col-auto
+                    img.img-a(src="assets/images/pages/ilustraciones/img21.png").img-fluid 
+                .col
+                    p Los motores de imanes permanentes son motor de corriente alterna que cuenta con imanes en su rotor que son utilizados para generar un campo electromagnético constante.
+
+                    p Existen principalmente dos tipos de motores de imanes permanente IPM con imanes montados en el interior del rotor y SPM con los imanes en la superficie del rotor.
+                    p trapezoidal, escalar o vectorial siendo este último el modo óptimo de operación.
+
+                    p Estos motores son capaces de operar a distintas velocidades de operación desde 120 rpm para sistemas PCP-PMM de fondo hasta 6000 rpm en conjunto con bombas electro sumergible de alta velocidad. 
+
+        p.mt-5 Al aplicarle energía al cable de potencia se genera un campo electromagnético en el estator y este genera movimiento en el conjunto rotórico.
+
+        p En los motores de imanes permanentes no es necesario generar el campo en el rotor ya que este siempre está presente por los imanes incrustados en el rotor. 
+
+        p Los componentes que se requieren para operar un motor electrosumergible son los siguientes:
+                                   
+        .row.my-5
+            .col-1
+                #v-pills-tab.nav.flex-column.nav-pills(role='tablist', aria-orientation='vertical')
+                    a#v-pills-4-tab.nav-link.active.px-2(data-toggle='pill', href='#v-pills-4', role='tab', aria-controls='v-pills-4', aria-selected='true') 1
+                    a#v-pills-5-tab.nav-link.px-2(data-toggle='pill', href='#v-pills-5', role='tab', aria-controls='v-pills-5', aria-selected='false') 2
+                    a#v-pills-6-tab.nav-link.px-2(data-toggle='pill', href='#v-pills-6', role='tab', aria-controls='v-pills-6', aria-selected='false') 3
+
+                    a#v-pills-7-tab.nav-link.px-2(data-toggle='pill', href='#v-pills-7', role='tab', aria-controls='v-pills-7', aria-selected='false') 4
+
+                    a#v-pills-8-tab.nav-link.px-2(data-toggle='pill', href='#v-pills-8', role='tab', aria-controls='v-pills-8', aria-selected='false') 5
+
+                    a#v-pills-9-tab.nav-link.px-2(data-toggle='pill', href='#v-pills-9', role='tab', aria-controls='v-pills-9', aria-selected='false') 6
+
+                    a#v-pills-10-tab.nav-link.px-2(data-toggle='pill', href='#v-pills-10', role='tab', aria-controls='v-pills-10', aria-selected='false') 7                                                          
+            .col-11
+                #v-pills-tabContent.tab-content
+                    #v-pills-4.tab-pane.fade.show.active(role='tabpanel', aria-labelledby='v-pills-4-tab')
+                        .list
+                            .list__item
+                                .list__item__icon
+                                    img.img-a(src="assets/images/pages/ilustraciones/v1.svg").img-fluid  
+                            .list__txt    
+                                p.mb-0.m-top.text-color-1 Transformador de bajada (SDT)
+                        .hr-ecored
+                        img.img-a.mt-5(src="assets/images/pages/ilustraciones/img22.png").img-fluid
+
+                    #v-pills-5.tab-pane.fade(role='tabpanel', aria-labelledby='v-pills-5-tab')
+                        .list
+                            .list__item
+                                .list__item__icon
+                                    img.img-a(src="assets/images/pages/ilustraciones/v1.svg").img-fluid  
+                            .list__txt    
+                                p.m-0.m-top.text-color-1 Variador de frecuencia. 
+                        .hr-ecored
+                        img.img-a.mt-5(src="assets/images/pages/ilustraciones/img23.png").img-fluid
+
+                    #v-pills-6.tab-pane.fade(role='tabpanel', aria-labelledby='v-pills-6-tab')
+                        .list
+                            .list__item
+                                .list__item__icon
+                                    img.img-a(src="assets/images/pages/ilustraciones/v1.svg").img-fluid  
+                            .list__txt    
+                                p.m-0.m-top.text-color-1 Transformador elevador (SUT) 
+                        .hr-ecored
+                        img.img-a.mt-5(src="assets/images/pages/ilustraciones/img24.png").img-fluid                                    
+                    #v-pills-7.tab-pane.fade(role='tabpanel', aria-labelledby='v-pills-7-tab')
+                        .list
+                            .list__item
+                                .list__item__icon
+                                    img.img-a(src="assets/images/pages/ilustraciones/v1.svg").img-fluid  
+                            .list__txt    
+                                p.m-0.m-top.text-color-1 (Soluciones ABB para bombas electrosumergibles, s. f.) 
+                        .hr-ecored
+                        img.img-a.mt-5(src="assets/images/pages/ilustraciones/img25.png").img-fluid     
+
+                    #v-pills-8.tab-pane.fade(role='tabpanel', aria-labelledby='v-pills-8-tab')
+                        .list
+                            .list__item
+                                .list__item__icon
+                                    img.img-a(src="assets/images/pages/ilustraciones/v1.svg").img-fluid  
+                            .list__txt    
+                                p.m-0.m-top.text-color-1 Cable de potencia
+                        .hr-ecored
+                        img.img-a.mt-5(src="assets/images/pages/ilustraciones/img26.png").img-fluid    
+
+                    #v-pills-9.tab-pane.fade(role='tabpanel', aria-labelledby='v-pills-9-tab')
+                        .list
+                            .list__item
+                                .list__item__icon
+                                    img.img-a(src="assets/images/pages/ilustraciones/v1.svg").img-fluid  
+                            .list__txt    
+                                p.m-0.m-top.text-color-1 Catalogo Cable Borets ZTS (2019) 
+                        .hr-ecored
+                        img.img-a.mt-5(src="assets/images/pages/ilustraciones/img27.png").img-fluid    
+
+                    #v-pills-10.tab-pane.fade(role='tabpanel', aria-labelledby='v-pills-10-tab')
+                        .list
+                            .list__item
+                                .list__item__icon
+                                    img.img-a(src="assets/images/pages/ilustraciones/v1.svg").img-fluid  
+                            .list__txt    
+                                p.m-0.m-top.text-color-1 Motor electrosumergible
+                        .hr-ecored
+                        img.img-a.mt-5(src="assets/images/pages/ilustraciones/img28.png").img-fluid 
